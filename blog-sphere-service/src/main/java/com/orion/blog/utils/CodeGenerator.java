@@ -71,7 +71,7 @@ public class CodeGenerator {
                 // 配置驱动
                 .setDriverName("com.mysql.cj.jdbc.Driver")
                 // 配置路径
-                .setUrl("jdbc:mysql://localhost:3306/orion-ops?characterEncoding=utf8")
+                .setUrl("jdbc:mysql://localhost:3306/blog-sphere?characterEncoding=utf8")
                 // 配置账号
                 .setUsername("root")
                 // 配置密码
@@ -117,7 +117,7 @@ public class CodeGenerator {
         // 包名策略配置
         PackageConfig pkConfig = new PackageConfig()
                 // 声明父包
-                .setParent("com.orion.ops")
+                .setParent("com.orion.blog")
                 // 映射接口的包
                 .setMapper("dao")
                 // service接口的包

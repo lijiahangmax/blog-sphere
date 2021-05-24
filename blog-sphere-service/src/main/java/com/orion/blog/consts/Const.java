@@ -12,6 +12,8 @@ public class Const extends com.orion.constant.Const {
     private Const() {
     }
 
+    public static final String ORION_BLOG = "orion_blog";
+
     public static final String INVALID_PARAM = "参数不合法";
 
     public static final String LOGIN_TOKEN = "O-Login-Token";
