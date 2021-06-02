@@ -22,4 +22,8 @@ public class Const extends com.orion.constant.Const {
 
     public static final int LOGIN_TOKEN_EXPIRE = 60 * 60 * 24;
 
+    public static final String EXCEPTION_MESSAGE = "系统繁忙";
+
+    public static final String IO_EXCEPTION_MESSAGE = "网络异常";
+
 }
